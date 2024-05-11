@@ -1,0 +1,199 @@
+body {
+  background-color: #212121;
+}
+
+.main {
+  display:flex;
+}
+.sidebar {
+  width:20rem;
+  height:100vh;
+  background-color: #171717;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.newChatButton {
+  width:100%;
+  height:1vh;
+  display:flex;
+  align-items: center;
+  padding:1rem;
+  padding-top:1rem;
+  justify-content: space-between;
+}
+
+.btn {
+  color:white;
+}
+.btn:hover {
+  color: #fff !important;
+  background-color: #2F2F2F;
+  text-decoration: none;
+}
+
+.gptlogo {
+  width:1.5rem;
+  margin-right:0.5rem;
+}
+
+.gptwritelogo {
+  width:2rem;
+  margin-left: auto;
+}
+
+.bottomBtns {
+  display:flex;
+  flex-direction: column;
+  margin-top:auto;
+  border-radius: 1rem;
+  margin-bottom:1rem;
+}
+
+.upgradeButton, .nameBtn {
+  display: flex;
+  text-align: left;
+  font-size:.9rem;
+}
+
+.upgradeDiv {
+  display:flex;
+  flex-direction: column;
+  padding-left: .2rem;
+}
+
+.subtext {
+  color: #a1a1a1;
+  font-size:.7rem;
+}
+
+.nameBtn {
+  display: flex;
+  align-items: center;
+  font-size:1rem;
+}
+
+#username {
+  padding-left:.2rem;
+}
+
+.mainContainer {
+  width:100%;
+  padding:0.6rem;
+  height:100vh;
+  z-index:1;
+  display:flex;
+  flex-direction: column;
+}
+
+.chatgptbutton {
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.dropdownItem {
+  background-color:#2F2F2F;
+  width:300px;
+  height: 30vh;
+  border-radius: 10px;
+  animation: fadeIn .25s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.centerText {
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-bottom: 3rem;
+}
+
+.gptlogocenter {
+  width:2.5rem;
+}
+
+.footerButtons {
+  margin-top:auto;
+  margin-bottom: 1rem;
+  min-width:40rem;
+  max-width:50rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.suggestButton {
+  height:4rem;
+  min-width:40%;
+  max-width:500px;
+  margin:.3rem;
+  outline:solid rgb(83, 83, 83) .1rem;
+}
+
+.form-control {
+  margin:auto;
+  margin-top:.2rem;
+  max-width:90%;
+}
+
+.centerContainer {
+  margin-top:auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  height:60vh;
+}
+
+.textarea {
+  border: none;
+  outline:solid rgb(83, 83, 83) .1rem;
+  padding:1rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  margin-top:.6rem;
+  width:85%;
+  height:5vh;
+  caret-color: white;
+}
+
+.ideaMain, .ideaSub {
+  display:block;
+  text-align: left;
+}
+
+.ideaMain {
+  font-size:100%;
+}
+.ideaSub {
+  font-size:80%;
+  color:gray;
+}
+
+.warningMsg {
+  color: white;
+  font-size:80%;
+}
+
+.activity {
+  margin-top:1rem;
+}
+.activity, .activity-item {
+  color:white;
+  background-color: transparent;
+  border: none;
+  font-size: 95%;
+  padding-bottom:.5rem;
+}
+
+.dateText {
+  font-size:75%;
+}
